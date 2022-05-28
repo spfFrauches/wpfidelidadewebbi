@@ -1,0 +1,96 @@
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.animate-box {
+    opacity: 0;
+}
+
+.imagemBlogCategoriaPHP {
+    width: 120px;
+}
+
+.imagemBlogCategoriaAngular {
+   /* width: 140px; */
+   width: 55px;
+}
+
+.imagemBlogCategoriaLinux {
+    width: 46px;
+}
+
+@media (max-width:600px){
+    
+    .imagemBlogCategoriaPHP {
+        width: 120px;
+    }
+    
+    .imagemBlogCategoriaAngular {
+        width: 80px;
+    }
+    
+    .imagemBlogCategoriaLinux {
+        width: 70px;
+    }
+    
+}
+
+
+#service{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.st-service-box{
+        padding: 0 20px;
+}
+
+.st-service-box p{
+    font-size: 13px;
+    color: #262626;
+    margin: 20px 0 0;
+    padding-left: 5px;
+}
+
+.st-service-box a{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    color: #262626;
+    display: inline-block;
+    margin: 20px 0 0;
+}
+
+.st-service-box a:hover{
+    color: #fff;
+}
+
+
+@media (max-width:600px){
+
+    .st-service-box{
+       text-align: center;
+    }
+    
+    .st-service-box p{
+        font-size: 12px;
+        color: #262626;
+        margin: 20px 0 0;
+        padding-left: 5px;
+    }
+    
+    .st-service-box-body { 
+        margin-top: -10px;
+        margin-bottom : -10px;
+    }
+    
+    .st-service-box-footer{
+         margin-bottom : 10px;
+    }
+
+}
+
+
+
+
+
