@@ -20,16 +20,16 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'wpfidelidade' );
+define( 'DB_NAME', 'wpfidelidadewebbi' );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', 'wpfidelidade' );
+define( 'DB_USER', 'root' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', 'caio102030' );
+define( 'DB_PASSWORD', '102030' );
 
 /** Nome do host do MySQL */
-define( 'DB_HOST', 'wpfidelidade.mysql.dbaas.com.br' );
+define( 'DB_HOST', 'localhost' );
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define( 'DB_CHARSET', 'utf8mb4' );
